@@ -1,5 +1,5 @@
 import run from "aocrunner";
-import { Direction, Instruction, parseDirection } from "../utils/direction.js";
+import { Direction, Instruction, parseDirection } from "../utils/Direction.js";
 
 const parseInput = (rawInput: string): Instruction[] => {
   const list = rawInput.split('\n');
